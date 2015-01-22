@@ -7,16 +7,6 @@ function ripRisk($str, $str1){
 	return false;
 }
 
-/*
- *
- * $MYSQL_HOST = "localhost";
- * $MYSQL_USER = "root";
- * $MYSQL_PASS = "123";
- *
- * Edit your MySQL password here!
- *
- */
- 
 date_default_timezone_set('Asia/Shanghai');
 @$select_data = $_GET['sign'];
 
