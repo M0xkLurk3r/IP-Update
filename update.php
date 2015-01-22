@@ -1,5 +1,7 @@
 <?php
 
+include 'auth.php';
+
 function ripRisk($str, $str1){
 	if (!strcasecmp($str, $str1))	return true;
 	if (stripos($str, $str1))	return true;
